@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "AI Expense Tracker",
+    "slug": "ai-expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#6366F1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expensetracker.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6366F1"
+      },
+      "package": "com.expensetracker.app"
+    },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Allow ExpenseAI to use your camera to scan receipts." }],
+      ["expo-image-picker", { "photosPermission": "Allow ExpenseAI to access your photos to scan receipts." }]
+    ]
+  }
+}

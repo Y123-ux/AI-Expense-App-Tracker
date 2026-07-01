@@ -1,0 +1,11 @@
+{
+  "name": "ai-expense-tracker",
+  "version": "1.0.0",
+  "description": "AI-powered expense tracking app with OCR receipt scanning and LLM categorization",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "web": "cd web && npm run dev",
+    "ocr": "cd ocr-service && python main.py"
+  }
+}
